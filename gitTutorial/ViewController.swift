@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import MapKit
 
 class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		print("Hello World!")
+		let mapViewController = MapViewController()
+		print(MapViewController)
 	}
 
 	override func didReceiveMemoryWarning() {
